@@ -20,8 +20,7 @@ a {
 .navbar-options {
   display: flex;
   justify-content: space-between;
-  width: 100%;
-  padding: 0rem 1rem;
+  padding: 0.5rem 1rem;
 }
 
 .navbar-brand {
@@ -62,7 +61,7 @@ a {
   background-position: center;
   height: 430px;
   width: 100%;
-  position: relative;
+  position: absolute;
   overflow: hidden;
 }
 
@@ -89,8 +88,8 @@ a {
 }
 
 .search-area-box {
-  background-color: #0a141a;
-  background-image: linear-gradient(to right, #0a141a, #38444c);
+  background-color: #0b161d;
+  background-image: linear-gradient(to right, #0b161d, #454f56);
   height: 50px;
   border-radius: 50px;
   width: 50%;
@@ -102,4 +101,9 @@ a {
   line-height: 0.5;
   font-size: 22px;
   width: 35%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
