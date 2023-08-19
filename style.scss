@@ -1,19 +1,40 @@
 body {
   background-color: #272727;
+  margin: 0px;
+}
+
+header {
+  position: relative;
 }
 
 .navbar {
   z-index: 1;
+  position: absolute;
+  width: 100%;
+}
+
+.navbar-options {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0rem 1rem;
 }
 
 .navbar-brand {
-  color: white;
-  font-size: 1.5rem;
-  margin-right: 50px;
+  // color: white;
+  // font-size: 1.5rem;
+  // margin-right: 50px;
+
+  img {
+    width: 75% !important;
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 .navbar-nav {
   margin: auto;
+  flex-direction: row;
 }
 
 .nav-link {
