@@ -7,6 +7,10 @@ header {
   position: relative;
 }
 
+a {
+  text-decoration: none;
+}
+
 .navbar {
   z-index: 1;
   position: absolute;
@@ -21,10 +25,6 @@ header {
 }
 
 .navbar-brand {
-  // color: white;
-  // font-size: 1.5rem;
-  // margin-right: 50px;
-
   img {
     width: 75% !important;
     max-width: 100%;
@@ -33,12 +33,11 @@ header {
 }
 
 .navbar-nav {
-  margin: auto;
   flex-direction: row;
 }
 
 .nav-link {
-  color: white;
+  color: #aeb1b2;
   margin: 0 15px;
 }
 
@@ -83,6 +82,10 @@ header {
 .search-area {
   z-index: 1;
   top: 50px;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
 }
 
 .search-area-box {
@@ -90,6 +93,7 @@ header {
   background-image: linear-gradient(to right, #0a141a, #38444c);
   height: 50px;
   border-radius: 50px;
+  width: 50%;
 }
 
 .header-text-area {
