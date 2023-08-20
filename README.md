@@ -8,7 +8,7 @@
 
 ## Overview
 
-- A frontend based an online retailer specializing in digital products
+- A frontend based online retailer specializing in digital products
 
 ## Technologies
 
