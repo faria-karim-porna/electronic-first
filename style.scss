@@ -154,6 +154,10 @@ main {
   }
 }
 
+.trending-area {
+  padding-top: 15px;
+}
+
 .row {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -217,4 +221,19 @@ main {
 
 .price-text {
   font-family: "Nunito", sans-serif;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.special-tag {
+  border: 1px solid #616161;
+  color: #616161;
+  border-radius: 3px;
+  font-size: 10px;
+  align-items: center;
+  padding: 2px;
+  margin-right: 5px;
+  font-weight: 500;
 }
