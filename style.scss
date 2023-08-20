@@ -108,7 +108,6 @@ a {
 }
 
 .header-text-area {
-  z-index: 1;
   height: 300px;
   line-height: 0.5;
   font-size: 22px;
@@ -158,19 +157,21 @@ main {
   padding-top: 15px;
 }
 
-.row {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1fr;
-  grid-column-gap: 20px;
-  grid-row-gap: 0px;
-}
+.trending-area {
+  .row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+  }
 
-.column {
-  img {
-    max-width: 100%;
-    border-radius: 7px;
-    margin-left: 2px;
+  .column {
+    img {
+      max-width: 100%;
+      border-radius: 7px;
+      margin-left: 2px;
+    }
   }
 }
 
@@ -245,20 +246,73 @@ main {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .child-menu-content {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(15px);
   padding: 20px;
   border-radius: 5px;
   position: absolute;
-  top: 50%;
+  top: 365px;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 634.5px;
 }
 
 #openModalBtn {
   z-index: 1;
   position: relative;
+}
+
+.child-menu-title {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(15px);
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.child-menu-title {
+  div:nth-child(1) {
+    font-weight: 500;
+  }
+}
+
+.child-menu-platforms {
+  padding: 15px 0px;
+  .row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 5px;
+  }
+
+  .column {
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 10px;
+    cursor: pointer;
+    img {
+      height: 30px;
+      width: 30px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+  }
+
+  .column:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(15px);
+  }
 }
