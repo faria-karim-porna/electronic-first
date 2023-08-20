@@ -197,6 +197,28 @@ a {
   justify-content: center;
   align-items: center;
   color: white;
+  font-weight: 600;
+  
+  .price-text{
+    font-size: 28px;
+  }
+}
+
+.days-tag{
+  font-size: 12px;
+  background-color: #333A3D;
+  padding: 10px;
+  border-radius: 5px;
+  width: fit-content;
+}
+
+.header-price-area {
+  display: flex;
+  align-items: center;
+
+  div:nth-child(1) {
+    margin-right: 10px;
+  }
 }
 
 main {
