@@ -1,17 +1,17 @@
 import "./style.scss";
 
-const modal = document.getElementById("myModal");
+const childMenu = document.getElementsByClassName("child-menu")[0];
 
 window.openModal = () => {
-  modal.style.display = "block";
+  childMenu.style.display = "block";
 };
 
 function closeModal() {
-  modal.style.display = "none";
+  childMenu.style.display = "none";
 }
 
 window.addEventListener("click", (event) => {
-  if (event.target === modal) {
+  if (event.target === childMenu) {
     closeModal();
   }
 });

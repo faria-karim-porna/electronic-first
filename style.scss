@@ -238,8 +238,7 @@ main {
   font-weight: 500;
 }
 
-/* Styles for the modal */
-.modal {
+.child-menu {
   display: none;
   position: fixed;
   top: 0;
@@ -249,7 +248,7 @@ main {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.modal-content {
+.child-menu-content {
   background-color: white;
   padding: 20px;
   border-radius: 5px;
@@ -259,21 +258,7 @@ main {
   transform: translate(-50%, -50%);
 }
 
-.close {
-  color: #aaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-/* Hover effect for the close button */
-.close:hover {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-#openModalBtn{
+#openModalBtn {
   z-index: 1;
   position: relative;
 }
