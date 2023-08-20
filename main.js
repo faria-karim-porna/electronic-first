@@ -2,7 +2,7 @@ import "./style.scss";
 
 const childMenu = document.getElementsByClassName("child-menu")[0];
 
-window.openModal = () => {
+window.openChildMenu = () => {
   childMenu.style.display = "block";
 };
 
