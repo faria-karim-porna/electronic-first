@@ -154,7 +154,7 @@ main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
-  grid-column-gap: 15px;
+  grid-column-gap: 20px;
   grid-row-gap: 0px;
 }
 
@@ -162,6 +162,19 @@ main {
   img {
     max-width: 100%;
     border-radius: 7px;
+    margin-left: 2px;
+  }
+}
+
+.trending-image-area {
+  position: relative;
+}
+
+.trending-image-area {
+  .discount-tag {
+    bottom: 0px;
+    left: -2px;
+    position: absolute;
   }
 }
 
@@ -180,4 +193,5 @@ main {
   font-size: 14px;
   align-items: center;
   color: #ffffff;
+  font-weight: 500;
 }
