@@ -139,6 +139,31 @@ a {
   align-items: center;
 }
 
+.search-bar-area {
+  background-color: #ff7b02;
+  background-image: linear-gradient(to right, #ff7b02, #ff4b19);
+  height: 45px;
+  border-radius: 45px;
+  width: 50%;
+  display: none;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #ffffff;
+  font-size: 14px;
+
+  input {
+    color: #ffffff;
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 470px;
+  }
+
+  input::placeholder{
+    color: #ffffffab;
+  }
+}
+
 .header-text-area {
   height: 300px;
   line-height: 0.5;
