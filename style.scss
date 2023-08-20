@@ -198,15 +198,15 @@ a {
   align-items: center;
   color: white;
   font-weight: 600;
-  
-  .price-text{
+
+  .price-text {
     font-size: 28px;
   }
 }
 
-.days-tag{
+.days-tag {
   font-size: 12px;
-  background-color: #333A3D;
+  background-color: #333a3d;
   padding: 10px;
   border-radius: 5px;
   width: fit-content;
@@ -218,6 +218,32 @@ a {
 
   div:nth-child(1) {
     margin-right: 10px;
+  }
+}
+
+.early-access-button {
+  position: absolute;
+  color: #ffffff;
+  padding: 4px;
+  font-weight: 600;
+  letter-spacing: 0.5ch;
+  top: 300px;
+  right: 350px;
+  background: linear-gradient(to right, #ffffff 4px, transparent 4px) 0 0, linear-gradient(to right, #ffffff 4px, transparent 4px) 0 100%,
+    linear-gradient(to left, #ffffff 4px, transparent 4px) 100% 0, linear-gradient(to left, #ffffff 4px, transparent 4px) 100% 100%,
+    linear-gradient(to bottom, #ffffff 4px, transparent 4px) 0 0, linear-gradient(to bottom, #ffffff 4px, transparent 4px) 100% 0,
+    linear-gradient(to top, #ffffff 4px, transparent 4px) 0 100%, linear-gradient(to top, #ffffff 4px, transparent 4px) 100% 100%;
+  background-repeat: no-repeat;
+  background-size: 10px 10px;
+
+  .early-access-button-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    padding: 5px;
+
+    div:nth-child(1) {
+      margin-right: 10px;
+    }
   }
 }
 
