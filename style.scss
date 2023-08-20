@@ -166,42 +166,10 @@ main {
 }
 
 .discount-tag {
-  // background-color: #ff5400;
-  // color: white;
-  // height: 20px;
-  // // width: 100%;
-  // position: absolute;
-  // overflow: hidden;
-
-  width: 0;
-  height: 0;
-  border-bottom: 25px solid red;
-  border-right: 7px solid transparent;
-  border-radius: 7px;
+  width: 50px;
+  height: 20px;
+  background-color: #ff5400;
+  // -webkit-clip-path: path("M 0 200 L 0,75 A 5,5 0,0,1 150,75 L 200 200 z");
+  // clip-path: path("M 0 200 L 0,75 A 5,5 0,0,1 150,75 L 200 200 z");
+  clip-path: path("M 0 0 L 0 20 L 50 20 L 45 0 z");
 }
-
-// .discount-tag::after {
-//   width: 0;
-//   height: 0;
-//   border-bottom: 100px solid red;
-//   border-right: 100px solid transparent;
-//   // content: "";
-//   // background-color: #ff5400;
-//   // display: block;
-//   // width: 50px;
-//   // height: 20px;
-//   // top: 0;
-//   // // position: absolute;
-//   // bottom: 0;
-//   // right: -47px;
-//   // transform: rotate(1deg);
-// }
-
-// .row {
-//   display: flex;
-//   flex-wrap: wrap;
-//   // margin: -10px; /* Adjust to manage spacing between columns */
-//   color: white;
-//   width: 100%;
-//   justify-content: space-between;
-// }
